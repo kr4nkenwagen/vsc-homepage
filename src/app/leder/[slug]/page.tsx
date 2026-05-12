@@ -130,7 +130,7 @@ export default async function TrailPage({
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[var(--accent)] text-white px-6 py-3 rounded-full text-sm font-medium hover:bg-[#1f5038] transition-colors"
           >
-            Öppna {trail.stigomrade} på Trailforks →
+            Öppna {trail.name} på Trailforks →
           </a>
         </div>
 

@@ -57,7 +57,7 @@ export const trails: Trail[] = [
   },
   {
     slug: "kolasnoret",
-    name: "Kolasnoret",
+    name: "Kolasnöret",
     difficulty: "Röd",
     type: "Enduro",
     description: "En skön och flowig led med bra driv som låter dig bygga upp farten ordentligt. Leden rundas av en stentrappa, vilket kräver både fokus och god kontroll på slutet.",
@@ -91,7 +91,7 @@ export const trails: Trail[] = [
   },
   {
     slug: "djungelvral",
-    name: "Djungelvral",
+    name: "Djungelvrål",
     difficulty: "Svart",
     type: "Enduro",
     description: "Här erbjuds utmaningar i form av både wallrides och drops.",
