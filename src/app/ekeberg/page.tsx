@@ -36,10 +36,7 @@ export default function EkebergPage() {
             Ekeberg
           </h1>
           <p className="mt-4 text-lg text-white/80 max-w-2xl leading-relaxed">
-            Ekeberg är ett av våra mest kompletta stigområden i Växjö med spår
-            för alla nivåer — från flowy XC till teknisk enduro med drops och
-            stenkistor.
-          </p>
+     Ekeberg är ett centralt stigområde som erbjuder teknisk cykling. Parkera vid vändplatsen och följ grusvägen uppför; ta sedan vänster vid skylten för att nå knutpunkten till Gröna grodan, Sura Endurogubbar, Juleskum och Lord of Flies. Om du istället fortsätter till höger fram till anslagstavlan hittar du starterna för Kolasnöret, Djungelvrål, Violpistol och Salta Patroner.          </p>
           <a
             href="https://www.trailforks.com/region/ekeberg-13422/trails/"
             target="_blank"
