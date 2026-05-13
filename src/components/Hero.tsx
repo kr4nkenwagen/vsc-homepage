@@ -23,7 +23,7 @@ export default function Hero() {
           alt="Växjö Stigcyklister"
           width={503}
           height={390}
-          className="h-80 w-auto mx-auto mb-8"
+          className="w-full max-w-[280px] sm:max-w-xs md:max-w-sm h-auto mx-auto mb-8"
           priority
         />
         <p className="text-lg text-white/80 max-w-xl mx-auto mb-10 leading-relaxed">

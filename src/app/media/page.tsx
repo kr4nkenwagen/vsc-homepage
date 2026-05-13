@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { filmer } from "@/data/filmer";
+import MediaGrid from "@/components/MediaGrid";
 
 export const metadata: Metadata = {
   title: "Media – Växjö Stigcyklister",
@@ -38,24 +38,7 @@ export default function MediaPage() {
 
       {/* Video grid */}
       <div className="max-w-6xl mx-auto px-6 py-16">
-        <div className="grid md:grid-cols-2 gap-8">
-          {filmer.map((f) => (
-            <div key={f.youtubeId} className="flex flex-col gap-3">
-              <div
-                className="relative w-full rounded-2xl overflow-hidden"
-                style={{ paddingBottom: "56.25%" }}
-              >
-                <iframe
-                  className="absolute inset-0 w-full h-full"
-                  src={`https://www.youtube.com/embed/${f.youtubeId}`}
-                  title="video"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                />
-              </div>
-            </div>
-          ))}
-        </div>
+        <MediaGrid />
       </div>
 
       <Footer />
